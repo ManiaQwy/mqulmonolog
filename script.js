@@ -22,7 +22,7 @@ const timer = setInterval(() => {
     header.textContent = chars.map(c => String.fromCharCode(c)).join("");
 }, 5);
 
-const biboop = new Audio("beebop.wav");
+const biboop = new Audio("/beebop.wav");
 
 document.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", (e) => {

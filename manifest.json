@@ -2,7 +2,7 @@
   "name": "MQULTRA",
   "short_name": "MQ",
   "description": "MQultra personal server service",
-  "start_url": "mqulmonolog.uk",
+  "start_url": "https://mqulmonolog.uk",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
