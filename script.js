@@ -38,3 +38,15 @@ document.querySelectorAll("a").forEach(link => {
         };
     });
 });
+
+if ("serviceWorker" in navigator) {
+
+    navigator.serviceWorker.register("/sw.js")
+    .then(() => {
+        console.log("PWA enabled");
+    })
+    .catch(err => {
+        console.log(err);
+    });
+
+}
