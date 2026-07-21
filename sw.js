@@ -4,8 +4,7 @@ const FILES = [
     "/",
     "/index.html",
     "/style.css",
-    "/script.js",
-    "icon-512.png"
+    "/script.js"
 ];
 
 
