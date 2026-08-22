@@ -50,3 +50,15 @@ if ("serviceWorker" in navigator) {
     });
 
 }
+let ids = ["main", "analytics"]
+
+function show(param){
+    for (const id of ids) {
+        if(id == param){
+            document.getElementById(id).className = "";
+        } else {
+            document.getElementById(id).className = "invis";
+        }
+    }
+
+}

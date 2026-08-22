@@ -34,3 +34,7 @@ a:hover{
     color: black;
     background-color: aliceblue;
 }
+
+.invis *{
+    display: none;
+}
