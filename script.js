@@ -50,7 +50,7 @@ if ("serviceWorker" in navigator) {
     });
 
 }
-let ids = ["main", "analytics"]
+let ids = ["main", "analytics", "files", "misc"]
 
 function show(param){
     for (const id of ids) {

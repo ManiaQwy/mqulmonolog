@@ -30,6 +30,11 @@ li{
     padding: 0 1rem 0 0;
 }
 
+#mqultras:hover {
+    color: black;
+    background-color: black;
+}
+
 a:hover{
     color: black;
     background-color: aliceblue;
@@ -37,4 +42,8 @@ a:hover{
 
 .invis *{
     display: none;
+}
+
+#szczuras{
+    width: 20rem;
 }
