@@ -62,3 +62,30 @@ function show(param){
     }
 
 }
+
+async function checkServer() {
+    const status = document.getElementById("server-status");
+
+    try {
+        const response = await fetch(
+            "https://status.mqulmonolog.uk/health?t=" + Date.now(),
+            { cache: "no-store" }
+        );
+
+        const text = await response.text();
+
+        if (response.ok && text.trim() === "SERVER_OK") {
+            status.textContent = "ONLINE";
+            status.className = "online";
+        } else {
+            status.textContent = "OFFLINE";
+            status.className = "offline";
+        }
+    } catch {
+        status.textContent = "OFFLINE";
+        status.className = "offline";
+    }
+}
+
+checkServer();
+setInterval(checkServer, 10000);

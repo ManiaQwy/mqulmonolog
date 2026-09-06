@@ -21,7 +21,7 @@ h1{
 
 ul a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 5px;
 }
 li{
@@ -46,4 +46,19 @@ a:hover{
 
 #szczuras{
     width: 20rem;
+}
+
+#server-status{
+    font-size: 3rem;
+    width: 13rem;
+    padding: 1rem;
+}
+
+.online{
+    background-color: rgb(38, 194, 17);
+    color: black;
+}
+
+.offline {
+    color: rgb(194, 9, 9);
 }
