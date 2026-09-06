@@ -55,10 +55,10 @@ a:hover{
 }
 
 .online{
-    background-color: rgb(38, 194, 17);
-    color: black;
+    color: rgb(38, 194, 17);
 }
 
 .offline {
-    color: rgb(194, 9, 9);
+    background-color: rgb(194, 9, 9);
+    color: black;
 }
